@@ -1,4 +1,4 @@
 # dealing with line-endings https://help.github.com/articles/dealing-with-line-endings/
 # Example under Windows, GIT might change line endings in .sh files which results with error on running the docker image:
 # standard_init_linux.go:190: exec user process caused "no such file or directory"
-.sh text eol=lf
+*.sh text eol=lf
